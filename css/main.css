@@ -87,3 +87,33 @@ body {
 .header-content p {
   line-height: 200%;
 }
+
+/* Services */
+
+.services {
+  padding: 90px 0;
+}
+
+.service-row {
+display: flex;
+column-gap: 30px;
+}
+
+.service-card {
+
+}
+
+.service-card-img {
+  margin-bottom: 30px;
+}
+
+.service-card-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.service-card p {
+  line-height: 2;
+}
