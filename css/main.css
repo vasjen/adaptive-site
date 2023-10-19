@@ -10,3 +10,80 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.container {
+  max-width: 1230px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header{
+  padding-top: 46px;
+  background-color: #F1F1F1;
+}
+
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 76px;
+}
+
+.logo {
+  position: relative;
+  padding: 0 12px 3px 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  color: #333;
+}
+
+.logo::after{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #FDA300;
+  border-radius: 50%;
+}
+
+/* NAV */
+.nav-list{
+  display: flex;
+  column-gap: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  
+}
+
+.nav-link{
+  color: #333;
+}
+.nav-link.active
+{
+  color: #606060;
+}
+/* Header content */
+
+.header-row{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.header-content{
+  max-width: 500px;
+  margin-top: 124px;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 44px;
+}
+.header-content p {
+  line-height: 200%;
+}
