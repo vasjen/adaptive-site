@@ -37,4 +37,75 @@
         top: 46px;
         right: 30px;
     }
+
+    .header-row {
+        flex-direction: column;
+        row-gap: 20 px;
+      
+    }
+
+    .header-content {
+        margin-top: 0;
+        
+    }
+
+    .header-nav {
+        margin-bottom: 50px;
+    }
+
+    .header-img {
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .services {
+        padding: 60px 0;
+    }
+    .heading {
+        font-size: 34px;
+    }
+    .heading span {
+       font-size: 28px;
+    }
+    .portfolio {
+        padding: 60px 0;
+    }
+
+    .portfolio-title {
+        margin-bottom: 50px;
+    }
+
+    .project-img {
+        margin-bottom: 30px;
+    }
+    .project + .project {
+        margin-top: 55px;
+      }
+
+    .contacts {
+        padding: 60px 0;
+
+    }
+
+    .contacts-title {
+        margin-bottom: 20px;
+    }
+
+    .contacts-content {
+        margin: 0 auto 40px;
+        max-width: 480px;
+        font-size: 18px;
+    }
+
+    .contacts-btn {
+ 
+        margin-bottom: 70px;
+    }
+
+    .contacts-social{
+        margin-bottom: 20px;
+        column-gap: 50px;
+    }
 }
