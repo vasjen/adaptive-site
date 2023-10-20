@@ -85,6 +85,10 @@ body {
   
 }
 
+.nav-button {
+  display: none;
+}
+
 .nav-link{
   color: #333;
 }
